@@ -149,7 +149,14 @@ ___
 - Primer Commit de la Calculadora:
 ___
 
-Hemos realizado el primer Commit de las clases mediante los comandos de Git.
+Una vez hemos creado el códgio lo que hemos hecho ha sido entar en la carpeta de la practica y he usado un `git init`, luego hemos hecho un `git add .`, para poner todos los archivos en el área de ensayo, luego creamos el primero commit con `git commit -m "Interfaz y Clase"`.
+
+Cuando lo tengamos crearemos la rama Master para subir este commit ahí pero todavía hay que crear la rama Master y el tag.
+Para hacer la rama Master usaremos el comando `git branch master`, ahora nos posicionamos en ella con `git checkout master` y ahora subiremos el primer commit a GitHub con `git remote add origin URLdeTuProyectoEnGithub` y lo subimos con un `git push origin master`.
+
+Ahora crearemos el tag `v.1.0.0` primero hay que saber el código del commit usando `git log --oneline` y nos saldrán todos los registros nosotors cogeremos el que tiene nombre de "Interfaz y Clase" (hay que coger su código) y usaremos el siguiente comando `git tag -a v1.0.0 -m "Primer commit" código`.
+
+Luego subimos el tag con `git push origin v1.0.0`.
 
 ___
 - Pruebas Junit.
