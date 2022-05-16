@@ -292,6 +292,11 @@ Ahora lo que haremos será crear el tag y ponerselo a ese commit priemro hay que
  ![image](https://user-images.githubusercontent.com/101186662/168581232-4e8ad24d-82ed-4452-b6a4-6b470a6ec6d9.png)
  
 ___
+- Subir todo juntos a la rama master con el tag v2.0.0
+___
+Primero lo que haremos será subir a la rama master con `git checkout master`, haremos un `git add .` luego un commit con `git commit -m "Todo"`, luego haremos el tag priemro miraremos el código con `git log --oneline` y luego un `git tag -a v2.0.0 -m "Todo" código` y lo subiremos con un `git push origin v2.0.0`.
+
+___
 - Pruebas de Código.
 ___
 Debido a que el código lo teniamos creado de otro instituto, no tuvimos ningún problema con el código, éste siempre nos ha funcionado y todas las pruebas realizadas han dado resultados perfectos.
