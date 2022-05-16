@@ -176,6 +176,8 @@ Primero haremos un `git add .`, `git commit -m "Métodos"`, ahora lo subiremos c
 Ahora lo que haremos será crear el tag y ponerselo a ese commit priemro hay que saber el código así que lo que haremos será usar `git log --oneline` y cogeremos el código de nuestro commit una vez lo tengamos haremos el tag con `git tag -a v1.1.0 -m "Nombre que queramos" código`
  y ahora lo subimos con un `git push origin v1.1.0`.
  
+ ![image](https://user-images.githubusercontent.com/101186662/168581232-4e8ad24d-82ed-4452-b6a4-6b470a6ec6d9.png)
+
 ___
 - Pruebas Junit.
 ___
