@@ -159,6 +159,19 @@ Ahora crearemos el tag `v.1.0.0` primero hay que saber el código del commit usa
 Luego subimos el tag con `git push origin v1.0.0`.
 
 ___
+Creamos la rama develop y fusionamos, en la cual añadimos las otras clases y el tag 1.1.0.
+___
+
+Primero creamos la rama develop con `git branch develop`, luego la fusionamos con `git merge develop` y por último la subimos con `git push origin develop`.
+
+Ahora añadimos el código en nuestra carpeta y haremos un commit todo junto poniendo un tag v1.1.0 y lo subiremos a la rama develop.
+
+Primero haremos un `git add .`, `git commit -m "Métodos"`, ahora lo subiremos con `git push origin develop`.
+
+Ahora lo que haremos será crear el tag y ponerselo a ese commit priemro hay que saber el código así que lo que haremos será usar `git log --oneline` y cogeremos el código de nuestro commit una vez lo tengamos haremos el tag con `git tag -a v1.1.0 -m "Nombre que queramos" código`
+ y ahora lo subimos con un `git push origin v1.1.0`.
+ 
+___
 - Pruebas Junit.
 ___
 
