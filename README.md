@@ -277,7 +277,7 @@ A continuación algunas anotaciones de Junit que te pueden ser útiles:
 @AfterAll: Se utiliza para señalar que el método anotado debe ejecutarse después de todas las pruebas en la clase de prueba actual.
 ```
 ___
-Creamos la rama develop y fusionamos, en la cual añadimos las otras clases y el tag 1.1.0.
+- Creamos la rama develop y fusionamos, en la cual añadimos las otras clases y el tag 1.1.0.
 ___
 
 Primero creamos la rama develop con `git branch develop`, luego la fusionamos con `git merge develop` y por último la subimos con `git push origin develop`.
