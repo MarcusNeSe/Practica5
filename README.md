@@ -277,25 +277,16 @@ A continuación algunas anotaciones de Junit que te pueden ser útiles:
 @AfterAll: Se utiliza para señalar que el método anotado debe ejecutarse después de todas las pruebas en la clase de prueba actual.
 ```
 ___
-- Creamos la rama develop y fusionamos, en la cual añadimos las otras clases y el tag 1.1.0.
+- Subimos el tag v1.1.0 (deberia ser 2.0.0 me he equivocado lo siento).
 ___
 
-Primero creamos la rama develop con `git branch develop`, luego la fusionamos con `git merge develop` y por último la subimos con `git push origin develop`.
+Añadimos el código en nuestra carpeta y haremos un commit todo junto poniendo un tag v1.1.0 y lo subiremos a la rama master.
 
-Ahora añadimos el código en nuestra carpeta y haremos un commit todo junto poniendo un tag v1.1.0 y lo subiremos a la rama develop.
-
-Primero haremos un `git add .`, `git commit -m "Métodos"`, ahora lo subiremos con `git push origin develop`.
+Primero haremos un `git add .`, `git commit -m "Métodos"`, ahora lo subiremos con `git push origin master`.
 
 Ahora lo que haremos será crear el tag y ponerselo a ese commit priemro hay que saber el código así que lo que haremos será usar `git log --oneline` y cogeremos el código de nuestro commit una vez lo tengamos haremos el tag con `git tag -a v1.1.0 -m "Nombre que queramos" código`
  y ahora lo subimos con un `git push origin v1.1.0`.
  
- ![image](https://user-images.githubusercontent.com/101186662/168581232-4e8ad24d-82ed-4452-b6a4-6b470a6ec6d9.png)
- 
-___
-- Subir todo juntos a la rama master con el tag v2.0.0
-___
-Primero lo que haremos será subir a la rama master con `git checkout master`, haremos un `git add .` luego un commit con `git commit -m "Todo"`, luego haremos el tag priemro miraremos el código con `git log --oneline` y luego un `git tag -a v2.0.0 -m "Todo" código` y lo subiremos con un `git push origin v2.0.0`.
-
 ___
 - Pruebas de Código.
 ___
