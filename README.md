@@ -159,6 +159,7 @@ Ahora crearemos el tag `v.1.0.0` primero hay que saber el código del commit usa
 Luego subimos el tag con `git push origin v1.0.0`.
 
 ![image](https://user-images.githubusercontent.com/101186662/168579977-63f26c36-29db-4540-9fe0-1812cb7ad2d7.png)
+![image](https://user-images.githubusercontent.com/101186662/168580194-8f7644d3-c0f6-4cdb-8545-fff6acdb532f.png)
 
 Lo de crear la rama master sale como que ya la tengo creada porque ya estaba creada cuando se hace el repositorio.
 
