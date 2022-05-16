@@ -267,6 +267,23 @@ class CalculadoraJunitTest {
 }
 ```
 Para crear este Junit le damos a click derecho en el java -> new -> junit testcase
+
+A continuación algunas anotaciones de Junit que te pueden ser útiles:
+```
+@Before: Se ejecuta siempre antes de cada método del test. 
+
+@After: El método se ejecutará después de cada método del test. 
+
+@BeforeEach: Marca los métodos que se ejecutarán antes de cualquier método del test.
+
+@AfterEach: Marca métodos que se ejecutarán en cualquier test.
+
+@TestInstance: Se usa para configurar el ciclo de vida de las instancias de prueba para la clase de prueba anotada o la interfaz de prueba.
+
+@BeforeAll: Marca el método que se ejecutará una única vez antes que cualquier método de prueba.
+
+@AfterAll: Se utiliza para señalar que el método anotado debe ejecutarse después de todas las pruebas en la clase de prueba actual.
+```
 ___
 - Segundo Commit.
 ___
